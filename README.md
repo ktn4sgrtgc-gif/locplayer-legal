@@ -17,6 +17,13 @@
 
 生效日期已经填为 **2026 年 10 月 23 日**；如果实际发布日期不同，请一起修改。
 
+## 已部署地址
+
+- 仓库：https://github.com/ktn4sgrtgc-gif/locplayer-legal
+- 隐私政策：https://ktn4sgrtgc-gif.github.io/locplayer-legal/privacy.html
+- 使用条款：https://ktn4sgrtgc-gif.github.io/locplayer-legal/terms.html
+- 技术支持：https://ktn4sgrtgc-gif.github.io/locplayer-legal/support.html
+
 替换后可以检查是否还有残留：
 
 ```bash
