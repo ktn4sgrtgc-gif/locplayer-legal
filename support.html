@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>技术支持 · Locplayer</title>
+  <meta name="description" content="Locplayer 技术支持：格式、字幕、播放列表、截图、购买与恢复购买。">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <div class="logo" aria-hidden="true"></div>
+      <div class="brand">
+        <strong>Locplayer</strong>
+        <span>LOCAL PLAYER</span>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html">首页</a>
+        <a href="privacy.html">隐私</a>
+        <a href="terms.html">条款</a>
+      </nav>
+    </header>
+
+    <a class="back" href="index.html">← 返回首页</a>
+    <h1>技术支持</h1>
+    <p class="lead">Locplayer 1.4 · macOS 14 或更高版本 · 支持 Apple Silicon 与 Intel Mac。</p>
+
+    <div class="panel">
+      <h2 style="margin-top:0">快速开始</h2>
+      <ol>
+        <li>打开 Locplayer，把视频或整个文件夹拖进窗口，或点“打开视频”。</li>
+        <li>同名 <code>.srt</code> / <code>.vtt</code> 字幕会自动载入。</li>
+        <li>右上角“视频 / 音频 / 字幕”可以直接下拉调整，播放时也能看到效果。</li>
+        <li>退出后再次打开，会回到上次的视频和播放位置。</li>
+      </ol>
+    </div>
+
+    <div class="panel">
+      <h2 style="margin-top:0">常见问题</h2>
+
+      <details open>
+        <summary>为什么 MKV、AVI 或 WMV 打不开？</summary>
+        <p>
+          Locplayer 使用 macOS 自带的 AVFoundation 解码，不内置第三方解码器。
+          MP4 / MOV / M4V / HEVC / ProRes / MPEG-TS 通常可以直接播放；
+          MKV、AVI、WMV、FLV、WebM 是否可播取决于系统是否有对应解码器。
+          可以把文件转成 MP4（H.264 / HEVC）后再播放。
+        </p>
+      </details>
+
+      <details>
+        <summary>同名字幕没有自动加载怎么办？</summary>
+        <p>
+          确认字幕与视频在同一个文件夹，并且文件名相同，例如
+          <code>浮光.mp4</code> 对应 <code>浮光.srt</code>。
+          如果你只打开了单个视频，请在右上角“字幕”下拉里点“授权视频所在文件夹”，
+          授权一次后即可读取同目录字幕。也可以在“字幕”下拉里手动“载入字幕…”。
+        </p>
+      </details>
+
+      <details>
+        <summary>支持哪些字幕格式和编码？</summary>
+        <p>
+          支持 SRT 和 VTT，可识别 UTF-8、UTF-16 和 GB18030 编码。
+          暂不支持 ASS / SSA 特效字幕。字幕延迟可在下拉面板里以 0.1 秒为单位调整。
+        </p>
+      </details>
+
+      <details>
+        <summary>重启后播放列表里的视频打不开？</summary>
+        <p>
+          这通常是 macOS 文件访问权限失效导致的。请在列表里移除该视频后重新添加，
+          或在“字幕”下拉里重新授权视频所在文件夹。第一次打开“文稿”“下载”“桌面”等目录时，
+          系统询问权限请选择允许。若仍无法恢复，请确认视频没有被移动、重命名或删除。
+        </p>
+      </details>
+
+      <details>
+        <summary>截图保存在哪里？</summary>
+        <p>
+          默认保存在视频文件旁边。如果该文件夹没有写入权限，App 会询问你选择保存位置。
+          截图格式为 PNG，快捷键是 ⇧⌘E，也可以点右上角的相机按钮。
+        </p>
+      </details>
+
+      <details>
+        <summary>Locplayer Pro 是订阅吗？价格是多少？</summary>
+        <p>
+          不是订阅。Locplayer Pro 是一次性买断的非消耗型内购，不会自动续费。
+          中国大陆 App Store 标价为 ¥68，其他地区以 App Store 结算页显示为准。
+        </p>
+      </details>
+
+      <details>
+        <summary>换了 Mac 或重装了 App，怎么恢复 Pro？</summary>
+        <p>
+          用购买时相同的 Apple ID 登录 App Store，打开 Locplayer 的 Pro 页面，点“恢复购买”。
+          如果仍显示未解锁，请确认 App Store 账号正确、网络可用，然后重新打开 App 再试。
+        </p>
+      </details>
+
+      <details>
+        <summary>如何申请退款？</summary>
+        <p>
+          购买由 Apple 处理。请访问
+          <a href="https://reportaproblem.apple.com" rel="noopener">reportaproblem.apple.com</a>
+          登录后选择对应购买申请退款。开发者无法直接处理 Apple 的扣款或退款。
+        </p>
+      </details>
+
+      <details>
+        <summary>Locplayer 会上传我的视频吗？</summary>
+        <p>
+          不会。视频、字幕、截图和播放记录都在你的 Mac 上处理。
+          只有 App Store 购买与恢复购买会通过 StoreKit 与 Apple 通信。
+          详见 <a href="privacy.html">隐私政策</a>。
+        </p>
+      </details>
+
+      <details>
+        <summary>如何反馈问题？</summary>
+        <p>
+          请发邮件到 lwq55550731@163.com，并附上 macOS 版本、Locplayer 版本、视频格式和问题描述。
+          如果方便，请附上出错时的截图；不要发送包含隐私内容的完整视频。
+        </p>
+      </details>
+    </div>
+
+    <div class="panel notice">
+      <h2 style="margin-top:0">联系开发者</h2>
+      <p style="margin-bottom:6px">通常会在 2 个工作日内回复。</p>
+      <div class="contact-box">
+        <span>开发者</span><strong>Weiqing Li（Locplayer）</strong>
+        <span>邮箱</span><strong>lwq55550731@163.com</strong>
+      </div>
+    </div>
+
+    <footer class="site">
+      <span>© 2026 Weiqing Li（Locplayer）</span>
+      <span class="spacer"></span>
+      <a href="index.html">首页</a>
+      <a href="privacy.html">隐私政策</a>
+      <a href="terms.html">使用条款</a>
+    </footer>
+  </div>
+</body>
+</html>
